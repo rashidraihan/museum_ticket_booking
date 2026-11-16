@@ -1,0 +1,8 @@
+# Real credentials must never be committed
+config.php
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

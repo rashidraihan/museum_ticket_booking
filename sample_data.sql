@@ -1,0 +1,25 @@
+-- OPTIONAL: fake bookings so you can try analytics_queries.sql. Not real people.
+-- Import after schema.sql. Delete these rows before using the site for real.
+INSERT INTO book_form (name, email, phone, address, location, visitors, arrivals) VALUES
+('Sample Visitor 01','visitor01@example.com','01700000001','Dhanmondi, Dhaka','Vintage Hall',2,'2027-01-11'),
+('Sample Visitor 02','visitor02@example.com','01700000002','Uttara, Dhaka','Main Hall',4,'2027-01-21'),
+('Sample Visitor 03','visitor03@example.com','01700000003','Mirpur, Dhaka','Vintage Hall',3,'2027-01-24'),
+('Sample Visitor 04','visitor04@example.com','01700000004','Gulshan, Dhaka','Concept Cars',2,'2027-02-10'),
+('Sample Visitor 05','visitor05@example.com','01700000005','Banani, Dhaka','Main Hall',6,'2027-02-13'),
+('Sample Visitor 06','visitor06@example.com','01700000006','Mohammadpur, Dhaka','Vintage Hall',5,'2027-02-23'),
+('Sample Visitor 07','visitor07@example.com','01700000007','Uttara, Dhaka','Concept Cars',2,'2027-02-26'),
+('Sample Visitor 08','visitor08@example.com','01700000008','Dhanmondi, Dhaka','Main Hall',8,'2027-03-08'),
+('Sample Visitor 09','visitor09@example.com','01700000009','Savar, Dhaka','Vintage Hall',12,'2027-03-18'),
+('Sample Visitor 10','visitor10@example.com','01700000010','Gulshan, Dhaka','Main Hall',3,'2027-03-21'),
+('Sample Visitor 11','visitor11@example.com','01700000011','Mirpur, Dhaka','Concept Cars',4,'2027-03-31'),
+('Sample Visitor 12','visitor12@example.com','01700000012','Banani, Dhaka','Vintage Hall',2,'2027-04-03'),
+('Sample Visitor 13','visitor13@example.com','01700000013','Uttara, Dhaka','Main Hall',5,'2027-04-13'),
+('Sample Visitor 14','visitor14@example.com','01700000014','Dhanmondi, Dhaka','Vintage Hall',2,'2027-04-16'),
+('Sample Visitor 15','visitor15@example.com','01700000015','Mohammadpur, Dhaka','Concept Cars',7,'2027-04-26'),
+('Sample Visitor 16','visitor16@example.com','01700000016','Gulshan, Dhaka','Main Hall',3,'2027-05-13'),
+('Sample Visitor 17','visitor17@example.com','01700000017','Mirpur, Dhaka','Vintage Hall',10,'2027-05-16'),
+('Sample Visitor 18','visitor18@example.com','01700000018','Banani, Dhaka','Main Hall',2,'2027-05-26'),
+('Sample Visitor 19','visitor19@example.com','01700000019','Savar, Dhaka','Concept Cars',15,'2027-05-29'),
+('Sample Visitor 01','visitor01@example.com','01700000001','Dhanmondi, Dhaka','Main Hall',2,'2027-06-08'),
+('Sample Visitor 02','visitor02@example.com','01700000002','Uttara, Dhaka','Concept Cars',3,'2027-06-11'),
+('Sample Visitor 20','visitor20@example.com','01700000020','Gulshan, Dhaka','Vintage Hall',4,'2027-06-21');
